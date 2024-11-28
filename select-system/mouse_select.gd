@@ -1,3 +1,7 @@
+# - SelectSystem (Node2D)
+#   - SelectArea (Area2D)
+#     - CollisionShape2D 
+
 extends Node2D
 
 var is_dragging = false
