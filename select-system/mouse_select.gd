@@ -59,6 +59,7 @@ func check_collisions_in_rectangle():
 	# Configure the physics query
 	var query = PhysicsShapeQueryParameters2D.new()
 	query.shape = shape
+	query.collide_with_areas = true
 	query.transform = Transform2D(0, rect_center)
 
 	# Perform the query
